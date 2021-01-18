@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const resolvers = require("./graphql/resolvers/index");
 const typeDefs = require("./graphql/typeDef");
 
-const PORT = process.env.port || 5000
+const PORT = process.env.PORT || 5000
 
 const pubsub = new PubSub();
 // create new Apollo server
